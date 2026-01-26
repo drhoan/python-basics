@@ -4,8 +4,12 @@
 
 def findmax(lst):
     # Replace the pass statement with your code
-    pass
-
+    current_max = lst[0]
+    for i in range(1, len(lst)):
+        if(lst[i] > current_max):
+            current_max = lst[i]
+    return current_max
+    
 if __name__ == "__main__":
     # Home-built findmax function
     print(findmax([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))  # 10

@@ -9,8 +9,14 @@
 
 def main():
     myList = [76, 92.3, "hello", True, 4, 76]
-    # Put your code below
-    
+    myList.append("apple") #a
+    myList.append(76) #a
+    myList.insert(3, "cat") #b
+    myList.insert(0, 99) #c
+    myList.index("hello")
+    myList.count(76) #e
+    myList.remove(76) #f
+    myList.pop(myList.index(True)) #g
 
     return myList
 

@@ -2,7 +2,7 @@
 # The function should return the arithmetic mean of the three arguments.
 # mean(1, 2, 3) should return 2.0
 def mean(a, b, c):
-    pass # replace this line with your code
+    return (a + b + c) / 3
 
 
 if __name__ == "__main__":
