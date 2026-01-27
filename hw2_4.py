@@ -2,7 +2,7 @@
 # The function should return the fuel cost to drive the distance in dollars.
 # For example, fuel_cost(100, 25, 3.50) should return 14.0.
 def fuel_cost(distance, mpg, cost):
-    pass # replace this line with your code
+    return (distance / mpg) * cost
 
 
 if __name__ == "__main__":

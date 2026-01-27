@@ -1,23 +1,23 @@
 # Define the function to add two numbers
 def add_numbers(a, b):
     # TODO: Implement addition
-    pass # Replace pass with your code
+    return a + b
 
 # Define the function to subtract two numbers
 def subtract_numbers(a, b):
     # TODO: Implement subtraction
-    pass # Replace pass with your code
+    return a - b
 
 # Define the function to multiply two numbers
 def multiply_numbers(a, b):
     # TODO: Implement multiplication
-    pass # Replace pass with your code
+    return a * b
 
 # Define the function to divide two numbers
 def divide_numbers(a, b):
     # TODO: Implement division with error handling for division by zero
     try:
-        pass # Replace pass with your code
+        return a / b
     except ZeroDivisionError:
         return ZeroDivisionError
 

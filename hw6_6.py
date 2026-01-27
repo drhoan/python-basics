@@ -3,8 +3,11 @@
 
 def countOdd(lst):
     # Replace the pass statement with your code
-    pass
-
+    odds = 0
+    for i in range(len(lst)):
+        if(lst[i] % 2 == 1):
+            odds = odds + 1
+    return odds
 if __name__ == "__main__":
     print(countOdd([1, 2, 3, 4, 5]))  # 3
     print(countOdd([2, 4, 6, 8, 10]))  # 0
